@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-         -         name: Checkout code
+      - name: Checkout code
         uses: actions/checkout@v2
       - name: Setup Node.js ${{ env.NODE_VERSION }}
         uses: actions/setup-node@v1
