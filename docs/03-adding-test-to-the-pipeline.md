@@ -4,7 +4,7 @@ The goal of this lab is to create the first stage in our CD pipeline, the test s
 
 ## Adding a testing stage to our continuous integration process
 
-Given that our application code is not in the root folder, we need to tell GH Actions where to run the commands from. Lets specify that the NPM commands needs to be run from the modern-web-app directory.
+Given that our application code is not in the root folder, we need to tell GH Actions where to run the commands from. Lets specify that the NPM commands needs to be run from the modern-web-app directory.a
 
 ```yml
 defaults:
